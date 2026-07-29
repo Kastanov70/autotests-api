@@ -1,7 +1,7 @@
 from pydantic import BaseModel, EmailStr, Field, SecretStr
 
 
-class UserShema(BaseModel):
+class UserSchema(BaseModel):
     """
     Схема данных пользователя.
 
