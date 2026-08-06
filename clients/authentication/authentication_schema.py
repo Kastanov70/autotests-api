@@ -1,5 +1,7 @@
 from pydantic import BaseModel, Field, EmailStr
 
+from tools.fakers import fake
+
 
 class TokenSchema(BaseModel):
     """
@@ -14,8 +16,8 @@ class LoginRequestSchema(BaseModel):
     """
     Описание модели запроса на аутентификацию.
     """
-    email: EmailStr
-    password: str
+    email: str = Field(default_factory=fake.email)  # Добавили генерацию случайного email
+    password: str = Field(default_factory=fake.password)  # Добавили генерацию случайного пароля
 
 
 class LoginResponseSchema(BaseModel):
@@ -29,4 +31,4 @@ class RefreshRequestSchema(BaseModel):
     """
     Описание модели запроса для обновления токена.
     """
-    refreshToken: str
+    refresh_token: str = Field(alias="refreshToken", default_factory=fake.sentence)
