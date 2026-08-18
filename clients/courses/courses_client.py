@@ -59,7 +59,7 @@ class CoursesClient(APIClient):
 
     def create_course(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:
         """
-        Метод удаления курса.
+        Метод создания курса.
 
         :param request: Запрос CreateCourseRequestSchema на создание курса.
         :return: Ответ от сервера в виде объекта CreateCourseResponseSchema
