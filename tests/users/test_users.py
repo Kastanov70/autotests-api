@@ -9,6 +9,7 @@ from clients.users.public_users_client import get_public_users_client, PublicUse
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
 from fixtures.users import UserFixture
 from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
 from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
@@ -22,6 +23,7 @@ from tools.fakers import fake
 @pytest.mark.regression
 @allure.tag(AllureTag.USERS, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)
+@allure.feature(AllureFeature.USERS)
 class TestUsers:
     @pytest.mark.parametrize("email", [
         "mail.ru",
