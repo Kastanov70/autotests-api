@@ -1,7 +1,13 @@
+# pycharm
 .idea/
+
+# python
 .venv
 __pycache__
+
+# mac
 .DS_Store
+
+# allure
 allure-report
 allure-results
-
