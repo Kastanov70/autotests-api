@@ -24,7 +24,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v7.0.0  # Используем GitHub Action для установки Python
         with:
-          python-version: '3.11'  # Устанавливаем версию Python 3.11 (можно заменить на другую версию)
+          python-version: '3.13'  # Устанавливаем версию Python 3.11 (можно заменить на другую версию)
 
       # 3. Шаг для клонирования репозитория с тестовым сервером в рабочую среду
       - name: Clone test server repository
