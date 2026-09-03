@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE0OjM3OjM0LjQzODg1MiIsInVzZXJfaWQiOiI2MDEwMzRiNy05NzM4LTQxMDktYTUwYi0wMzU4ODc5MWZhODUifQ.Wwyv3YCfiD-VJ6qKcSZU8zBTZ3BxSzC4Cz31hrN0iPk' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evening edge skin forward station.","maxScore":76,"minScore":2,"description":"Environment last player light part. Either move international world who more. Probably own adult explain which. Health kind focus with.","estimatedTime":"2 weeks","previewFileId":"967571e4-88b9-40c2-aa4b-d3e9ecffe142","createdByUserId":"601034b7-9738-4109-a50b-03588791fa85"}'

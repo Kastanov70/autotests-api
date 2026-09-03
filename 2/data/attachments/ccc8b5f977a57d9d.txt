@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1c68b958-212e-4fbb-829c-20fc1490d304' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE0OjM3OjMwLjc4NTk0OSIsInVzZXJfaWQiOiI3MjZmM2E1Mi0yOWQ5LTRiY2EtODY2Zi00MjYwOWZiOTFiODUifQ.NE6AlQ4f3WLtY-cCAFFdcGHVoM2kb09wlzBcqDplICI' \
+  -H 'content-length: 245' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eight country bag could himself night.","maxScore":97,"minScore":1,"description":"Best arm truth coach just decade. Clearly beautiful party despite condition. Figure quite religious affect road oil practice.","estimatedTime":"6 weeks"}'

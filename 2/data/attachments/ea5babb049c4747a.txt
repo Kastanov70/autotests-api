@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/0449be06-d13f-4ab3-b657-33dcd1cb84bf
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/0449be06-d13f-4ab3-b657-33dcd1cb84bf
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISE_ASSERTIONS:exercises.py:51 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 0449be06-d13f-4ab3-b657-33dcd1cb84bf
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Scientist man short forward.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 5c8e79cd-7a7f-4658-96f0-bae5014f6db5
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 27
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Once professional professor national. Mean they day phone ok mean other. Likely run test program there. None treatment society.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

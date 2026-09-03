@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE0OjM3OjMzLjMwNjU2MSIsInVzZXJfaWQiOiJhODU4NTBiMi00MmEwLTRmZTMtOTNjNS03NGI4OTAyMGZiMzMifQ.oxXBlACiIfuXTwA6mdDM3DfaA-zvGe4GzFDaQ1_f8fk' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Million box employee land himself.","maxScore":87,"minScore":8,"description":"Pull month none fact water. Take education measure way after.\nMessage we teacher production campaign participant treat. Management provide party thing fire.","estimatedTime":"6 weeks","previewFileId":"5b76dfb7-7d20-4eca-bb2c-6ad399f757a8","createdByUserId":"a85850b2-42a0-4fe3-93c5-74b89020fb33"}'

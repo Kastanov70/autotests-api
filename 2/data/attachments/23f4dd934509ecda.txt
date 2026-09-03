@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE0OjM3OjMwLjE3NDYyOCIsInVzZXJfaWQiOiJlM2NmZmRiMy1lMDMwLTQzMGQtOGY0NC1mOTZiZDI3MTVhYTkifQ.qP61NKCOSiRhLnt3oITx7z8WHAA8Q4lerjIOJ1hLhVs' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It beautiful activity black data official sign alone.","maxScore":72,"minScore":21,"description":"Like popular bad center.\nEverybody eight Mr development board avoid. Spend lawyer pattern economic person piece.\nCover dark machine room return learn. Operation catch loss nation strategy.","estimatedTime":"9 weeks","previewFileId":"23062258-4c68-4656-bc85-82b7a4812074","createdByUserId":"e3cffdb3-e030-430d-8f44-f96bd2715aa9"}'

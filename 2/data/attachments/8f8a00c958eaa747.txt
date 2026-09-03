@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE0OjM3OjMyLjE4NTU1OSIsInVzZXJfaWQiOiIwYzhhZGI0ZS0zYzNjLTQyODctYTc2Ni05YmUyNzY0NjUyYTIifQ.-vCp4F0sXFJhd04pIu53pU_9NrqKn5jQO-MBYvEkPeo' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chair themselves theory recently attention.","maxScore":76,"minScore":16,"description":"Low hotel American tonight purpose rich back. Notice now many work color blood. Hold plan idea statement high significant.","estimatedTime":"4 weeks","previewFileId":"9052a3d5-5a14-417b-af61-087cfc82fa35","createdByUserId":"0c8adb4e-3c3c-4287-a766-9be2764652a2"}'

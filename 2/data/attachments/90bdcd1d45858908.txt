@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE0OjM3OjMwLjc4NTk0OSIsInVzZXJfaWQiOiI3MjZmM2E1Mi0yOWQ5LTRiY2EtODY2Zi00MjYwOWZiOTFiODUifQ.NE6AlQ4f3WLtY-cCAFFdcGHVoM2kb09wlzBcqDplICI' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consumer my thing.","maxScore":67,"minScore":14,"description":"When general girl thus course you. Once back memory national.\nSure class single inside. Sometimes lot prove far discuss agency scientist sure. Spend generation cost than scientist especially worker.","estimatedTime":"4 weeks","previewFileId":"7a740106-6275-4292-bdb3-41905b258657","createdByUserId":"726f3a52-29d9-4bca-866f-42609fb91b85"}'
