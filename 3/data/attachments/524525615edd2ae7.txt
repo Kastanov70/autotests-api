@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjQ5OjI2LjM0OTk1NSIsInVzZXJfaWQiOiI0M2E4ZGNhZi0zZGVjLTQ4NjMtODhhOS04ZmVjNjI4ZWU0ZjkifQ.oBqhZn37ZdyVeB2zSxdMMVQ3heNWlQs8L8NdgUPDDv0' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"True account system Mrs statement worry ahead.","maxScore":78,"minScore":17,"description":"His central world chance result. Bill market cost nation.\nStill international suffer movement determine.","estimatedTime":"3 weeks","previewFileId":"d22ad79c-4aa7-4744-8acb-777ef1815295","createdByUserId":"43a8dcaf-3dec-4863-88a9-8fec628ee4f9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjQ5OjI3LjY4NDA0MiIsInVzZXJfaWQiOiJmNjU3ZTcyNy1hM2UyLTRiODgtOTg2MS1lMDhhYjI4NDA5MTQifQ.o4UoB45f9obIQNliuZbgAaRJhN7bufTXDsMm7kzujn0' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip letter laugh condition maybe answer forward.","courseId":"32f99925-03d6-4018-9811-992593381e3f","maxScore":57,"minScore":6,"orderIndex":83,"description":"Approach those another mean conference choose.\nAgent matter ask other. Daughter style indicate toward movie daughter. Likely writer country some.","estimatedTime":"6 weeks"}'

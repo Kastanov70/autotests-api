@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjQ5OjI3LjY4NDA0MiIsInVzZXJfaWQiOiJmNjU3ZTcyNy1hM2UyLTRiODgtOTg2MS1lMDhhYjI4NDA5MTQifQ.o4UoB45f9obIQNliuZbgAaRJhN7bufTXDsMm7kzujn0' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Boy once statement mission age.","maxScore":85,"minScore":1,"description":"Task beat gun but main. Country knowledge statement Democrat interest away.\nThank industry capital democratic serious rate. Night piece understand describe.","estimatedTime":"6 weeks","previewFileId":"de88f9b1-a977-4914-988f-3ab1c9409276","createdByUserId":"f657e727-a3e2-4b88-9861-e08ab2840914"}'

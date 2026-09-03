@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/12081ab8-f023-4d94-a4da-040915991926' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjQ5OjIzLjM4ODYxMiIsInVzZXJfaWQiOiJkYThiYjk0MS00N2ZkLTRjYTgtOWEyZC1hY2MxYTU5MjIyODAifQ.rUlEqqry7ZTlEEfz-Msrs9KObcrc7FeGUfcCaVuBGa0' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Color pressure news space avoid base.","maxScore":94,"minScore":17,"description":"Determine Republican wish garden politics collection air. Reveal common how say chair really sort. Tax glass never occur quality chair.","estimatedTime":"4 weeks"}'

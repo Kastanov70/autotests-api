@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjQ5OjI1LjAyNTAyNyIsInVzZXJfaWQiOiJjM2RjN2QxMS1iNzU1LTQ4ZGMtODY1Yi02ODE1MTZjNWIyMjgifQ.HLRoDNAt_20I2KbJv6tqFWRf2M7o4yOem0B_dnXixTw' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs just treat able.","maxScore":89,"minScore":8,"description":"Enter stay where. Behavior minute Mr any customer base. Ability college another most. Tree point today indicate dinner near region.\nSpecific spend or force. Let interview drug the.","estimatedTime":"4 weeks","previewFileId":"97c2b885-019a-400d-aa30-5f9ae2769f6b","createdByUserId":"c3dc7d11-b755-48dc-865b-681516c5b228"}'
