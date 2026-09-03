@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/bbc0212a-ef9a-4c37-b412-c006d0634aa3
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/bbc0212a-ef9a-4c37-b412-c006d0634aa3
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISE_ASSERTIONS:exercises.py:51 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to bbc0212a-ef9a-4c37-b412-c006d0634aa3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to People threat situation skill health.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 5df427e6-02de-466a-bc7c-8fc450096f7c
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 73
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 7
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Boy ahead process upon bag work mouth. Financial goal glass Mr whom concern. Here raise we which when. Remember pressure population defense similar whose.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

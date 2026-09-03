@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjUyOjU3LjYyNTE4OSIsInVzZXJfaWQiOiJjMjFhN2UxNC1kODI0LTQzNzgtYTI0OS0wMzNhZGFlM2M3MmQifQ.fJ9Vdnn4vYi6OAd5H1s9fgFKio48PAPVGcVLojEJAto' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"More mouth decision.","maxScore":90,"minScore":22,"description":"Meeting consider ability impact. Authority source recently hundred. Yes box often much skill large about.","estimatedTime":"6 weeks","previewFileId":"7ae96f57-8aca-4a3c-b2e8-a25aaeefda08","createdByUserId":"c21a7e14-d824-4378-a249-033adae3c72d"}'

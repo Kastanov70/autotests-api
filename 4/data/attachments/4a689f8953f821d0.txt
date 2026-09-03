@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjUyOjU1Ljk2ODA3MiIsInVzZXJfaWQiOiJkODM0NjEzMy1kYzcwLTQ1OGYtOWUwOS05YTQ5MjExOWQ0NjUifQ.20C3xw6i830ueKrY0YmLKvzzoZwWubAnWTyCK31PvMQ' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Upon like fight accept.","maxScore":98,"minScore":7,"description":"Manager these compare.\nMrs term feel knowledge. Speak manage clear.\nMove idea service assume security create. Difference ago sister better nearly. Career policy machine theory turn.","estimatedTime":"6 weeks","previewFileId":"abaf6a02-b65e-4a87-a776-8f00ee55dbaa","createdByUserId":"d8346133-dc70-458f-9e09-9a492119d465"}'

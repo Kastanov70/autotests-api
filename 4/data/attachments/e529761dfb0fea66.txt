@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjUyOjU4LjQ5Mjg1OCIsInVzZXJfaWQiOiI1ZTI4YTdmNC1lM2NjLTRlNzEtOTBkNi1lZGEyZTI0MjU4MDcifQ.NvPB9gb05DTuZlZAuqglP0QenQxeRZAW_UDgArIvDnA' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People threat situation skill health.","courseId":"5df427e6-02de-466a-bc7c-8fc450096f7c","maxScore":73,"minScore":29,"orderIndex":7,"description":"Boy ahead process upon bag work mouth. Financial goal glass Mr whom concern. Here raise we which when. Remember pressure population defense similar whose.","estimatedTime":"5 weeks"}'

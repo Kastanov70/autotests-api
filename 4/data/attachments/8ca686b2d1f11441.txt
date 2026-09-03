@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjUyOjU3LjM4NjY4NiIsInVzZXJfaWQiOiI0ZWQwZDNmMC00Y2FkLTQwYzMtOGRkMC1mZTk1MzAxMDgxNDkifQ.wVrIuMKEanEtrmoME-MduvAOifuDSA0JBUTtObTEweM' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"That value position color arrive radio.","maxScore":97,"minScore":16,"description":"Theory air claim fine. Hot travel suddenly treat. Since wind specific despite visit whole.","estimatedTime":"5 weeks","previewFileId":"0e3bc0f0-8016-49fa-9e1c-e057ff87d629","createdByUserId":"4ed0d3f0-4cad-40c3-8dd0-fe9530108149"}'

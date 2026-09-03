@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjUyOjU5LjAzOTgzNSIsInVzZXJfaWQiOiI3NWJiZTQ1OC05Y2E4LTQ4NTUtYmNhNy1hYjNhZmFlYzc5MjMifQ.puIcVZIdpoAFK7m6wX2gpKu_Oosnj978jgC9riGR2t4' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue describe six including success adult.","maxScore":55,"minScore":16,"description":"Treat mean hair case service control. Imagine station crime pay long party certain maybe.\nFocus think start. Sport picture just everything physical.","estimatedTime":"5 weeks","previewFileId":"d441b8e8-cc38-4bd0-bb28-abe17db423b3","createdByUserId":"75bbe458-9ca8-4855-bca7-ab3afaec7923"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ea694504-aeab-4af3-bb70-9574ebc37462' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjUyOjU1Ljk2ODA3MiIsInVzZXJfaWQiOiJkODM0NjEzMy1kYzcwLTQ1OGYtOWUwOS05YTQ5MjExOWQ0NjUifQ.20C3xw6i830ueKrY0YmLKvzzoZwWubAnWTyCK31PvMQ' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rock evidence two else.","maxScore":54,"minScore":14,"description":"Crime know address. Same when write per. Join meet newspaper debate nothing boy each.\nMuch throughout total choice join myself. Deep available professional oil.","estimatedTime":"3 weeks"}'

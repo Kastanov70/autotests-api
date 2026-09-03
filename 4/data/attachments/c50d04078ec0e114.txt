@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjUyOjU5LjAzOTgzNSIsInVzZXJfaWQiOiI3NWJiZTQ1OC05Y2E4LTQ4NTUtYmNhNy1hYjNhZmFlYzc5MjMifQ.puIcVZIdpoAFK7m6wX2gpKu_Oosnj978jgC9riGR2t4' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test important value suffer the around appear.","courseId":"530672a3-e454-4626-b26c-0bf638cab7a3","maxScore":73,"minScore":19,"orderIndex":40,"description":"Do name seem size. Investment well quality energy special edge simply. Particularly strong decision car always fall.","estimatedTime":"7 weeks"}'

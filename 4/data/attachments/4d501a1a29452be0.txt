@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjUyOjU2LjQ4MDIxMyIsInVzZXJfaWQiOiI3Y2U2YzcwMS00Y2RiLTQ2ODQtYjkwYi0wY2Y4MzVjMDA3Y2IifQ.j6iB0LL9LN5P1bNpTtbj6xdfel0Mq8ZfCElTWjGcOEo' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sometimes police pattern lose happy night.","maxScore":62,"minScore":28,"description":"Upon them stage spend. Water economic real north year.\nSuccessful employee hard entire back cost. None college memory check radio fact.","estimatedTime":"6 weeks","previewFileId":"6c7ee463-315f-43b8-89c2-89a4dc50171d","createdByUserId":"7ce6c701-4cdb-4684-b90b-0cf835c007cb"}'

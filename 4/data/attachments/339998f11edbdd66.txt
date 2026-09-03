@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE1OjUyOjU4LjQ5Mjg1OCIsInVzZXJfaWQiOiI1ZTI4YTdmNC1lM2NjLTRlNzEtOTBkNi1lZGEyZTI0MjU4MDcifQ.NvPB9gb05DTuZlZAuqglP0QenQxeRZAW_UDgArIvDnA' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy section others actually say which.","maxScore":89,"minScore":23,"description":"Top break me drug up fact ball. Experience doctor each involve guess.","estimatedTime":"4 weeks","previewFileId":"539beb89-a901-4f80-b8ec-34e482c3bf54","createdByUserId":"5e28a7f4-e3cc-4e71-90d6-eda2e2425807"}'
