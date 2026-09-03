@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE2OjM3OjA5LjQ2ODUzMyIsInVzZXJfaWQiOiI1NWU0YzU4Yy0zMThjLTRhN2EtOTNmYi01NDcyM2NjMGZhODYifQ.kFz0JxKOAlAbTyiVYcH5pM2erIc49UFYmd_Pyv62yjA' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source tax several themselves authority item.","maxScore":65,"minScore":3,"description":"Certainly factor way either management task clear. Hotel population party choose church myself example.\nStructure offer road class.\nBefore significant cut impact camera. Summer one measure sort.","estimatedTime":"3 weeks","previewFileId":"74f34799-8561-4ded-9fc4-cf9c708f6507","createdByUserId":"55e4c58c-318c-4a7a-93fb-54723cc0fa86"}'

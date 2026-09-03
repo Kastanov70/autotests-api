@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:90 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to So region ever bar relate of.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 97
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Price positive network against. Development before none think certain often everybody.
+Sound water visit glass image. Education in example. Will rich fund feel physical project.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 21372b79-c96f-40f5-b28a-20ae3560460e
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 47d84792-a465-41a1-9dfc-19e7dfe13c7b
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

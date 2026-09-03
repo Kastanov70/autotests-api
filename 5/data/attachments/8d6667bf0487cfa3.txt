@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE2OjM3OjA4LjU1NDk5NiIsInVzZXJfaWQiOiJjYjE2MDkzOC1hNGNmLTRkNWYtYTk4OS03ZWRkODU1YTk5NWYifQ.ZxzoZUdDMh3kZ4WcHJ6X3SbaKGIYSJbr4Il2p62_cUk' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Realize any film rise place well may give.","maxScore":94,"minScore":21,"description":"Teach actually fish boy. Main together stuff daughter along hit. Stage player fall one price question.\nThis late government there. Something quite experience that idea.","estimatedTime":"3 weeks","previewFileId":"06b5953b-f3b1-43b5-958f-4f62f90fed21","createdByUserId":"cb160938-a4cf-4d5f-a989-7edd855a995f"}'

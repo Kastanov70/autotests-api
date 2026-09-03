@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE2OjM3OjA4LjI4MDMwNyIsInVzZXJfaWQiOiI4ZDVmNTY3Ni00MWI3LTQ2MDUtYTI3YS1jOGFlOWQwYjE3NDkifQ.hcSIS8jK7vIjRAOrLO4krB_CB4s2otzYes7bgrCDXqU' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"So wonder tough news already.","courseId":"917ababb-e5e8-4374-b96d-33ca4ade6888","maxScore":99,"minScore":9,"orderIndex":76,"description":"Above glass crime involve. Imagine life second stage upon.\nThese environment however if arrive perform debate wall.","estimatedTime":"8 weeks"}'

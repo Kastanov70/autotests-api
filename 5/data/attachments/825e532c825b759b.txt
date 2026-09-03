@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE2OjM3OjA3LjA3Nzc3MyIsInVzZXJfaWQiOiI3NWZjZGFjNC0yMWM4LTQyNzAtYmQyYy1hMjRkZDEyZTYzZWIifQ.87IFw4BMqSAk71tO5MF7qSdtP2e-6mnpJ2C8B6AidEA' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board mean step bank world company.","maxScore":69,"minScore":21,"description":"Writer question light successful expect plan from. Easy home medical professor short force.\nManage as will effect in behavior evidence. So audience better wear arrive war.","estimatedTime":"9 weeks","previewFileId":"6c0d9bcf-2c48-4983-8c0a-4c2e5da713dc","createdByUserId":"75fcdac4-21c8-4270-bd2c-a24dd12e63eb"}'

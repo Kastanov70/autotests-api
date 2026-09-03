@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE2OjM3OjA5Ljc0MzgxNSIsInVzZXJfaWQiOiJmYmIxMDBhMS1iZTRlLTRhYmYtYTA1NS05ODllNjNmY2I5OGQifQ.jG_sO_d7YbXC2LaoYZ8OBY15hbdedRhFnGgClu3TkP0' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bad before difficult.","maxScore":51,"minScore":30,"description":"Source how front thank water feeling their. Ground factor third expect rest moment author. Make represent site throw.","estimatedTime":"8 weeks","previewFileId":"10e702f9-9548-4a18-afc8-28f294504a93","createdByUserId":"fbb100a1-be4e-4abf-a055-989e63fcb98d"}'

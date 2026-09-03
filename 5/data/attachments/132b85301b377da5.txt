@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE2OjM3OjA1LjkzNDAwOCIsInVzZXJfaWQiOiIyMzMzYWFlMS0zNzlkLTQ0Y2ItOGI5OS1kYzU0M2I4NjM5MTkifQ.ATOgyyrW2TOnVW86wk-6MJqijV7OI4oSXqm-GKN4QeI' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just appear forget level girl hundred.","maxScore":86,"minScore":9,"description":"Before best piece do word imagine everyone. Into spring account little here.\nMillion worry miss his drug. Character standard research.","estimatedTime":"10 weeks","previewFileId":"2762d765-c5b3-45ff-b56d-05ddd65a9b84","createdByUserId":"2333aae1-379d-44cb-8b99-dc543b863919"}'

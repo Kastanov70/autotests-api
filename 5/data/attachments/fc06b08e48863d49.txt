@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTAzVDE2OjM3OjA4LjI4MDMwNyIsInVzZXJfaWQiOiI4ZDVmNTY3Ni00MWI3LTQ2MDUtYTI3YS1jOGFlOWQwYjE3NDkifQ.hcSIS8jK7vIjRAOrLO4krB_CB4s2otzYes7bgrCDXqU' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Style phone want central course.","maxScore":73,"minScore":12,"description":"Party if far Mr police remember. Million actually history color draw certainly time. Pick of discussion last box though world.","estimatedTime":"9 weeks","previewFileId":"910c4fa9-ecb7-43ef-83df-fe40f62c1d85","createdByUserId":"8d5f5676-41b7-4605-a27a-c8ae9d0b1749"}'
