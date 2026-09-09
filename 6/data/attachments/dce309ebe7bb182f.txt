@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjMzLjQxOTQ4OSIsInVzZXJfaWQiOiIwMjU4MDU1ZS1kMTJkLTQyYzUtODU0ZC0yOGUxMDczOGY5ZmEifQ.cC0TBipcmMgDdt9P43U1RTEpGwtQkGfqjTCaSpYlfh0' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Should black common.","maxScore":76,"minScore":26,"description":"On state chair American hold. Already save network strategy positive discover. Put challenge how miss people certain Republican will.","estimatedTime":"1 weeks","previewFileId":"1d86f73c-14fe-4cef-8e17-08f4eaff9093","createdByUserId":"0258055e-d12d-42c5-854d-28e10738f9fa"}'

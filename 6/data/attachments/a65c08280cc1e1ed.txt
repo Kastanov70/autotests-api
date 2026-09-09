@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjMyLjQ1NjA2MyIsInVzZXJfaWQiOiI1ZTgyYWI3MC04NjI3LTQwMGYtODRiMS0yNzk3OGYwNGUzNTUifQ.KxX-r2Ufc_3RETqXNODTpeZtjrrbKyc4MhppJR87lIs' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay too standard.","maxScore":61,"minScore":28,"description":"Beat itself Republican now.\nWife pick forward nation father. Yeah drop suffer art senior.\nClearly pass college save less. Property law culture always ten increase operation through.","estimatedTime":"1 weeks","previewFileId":"1998d937-5ef2-464c-bcd5-2e2463c7ae6e","createdByUserId":"5e82ab70-8627-400f-84b1-27978f04e355"}'

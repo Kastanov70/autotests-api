@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjI2LjAzMTE1OSIsInVzZXJfaWQiOiI5NDBlNjE0OC04YTdjLTQ4YjctODNkZS1hZTQ3MmI4NTIxMWUifQ.ismCBm5mWv8iKnlQoHK7SN8D_x_eRzABPG9PcTLxKFk' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discussion trade stand television history hit woman herself.","maxScore":56,"minScore":14,"description":"Memory likely experience school him government ground. Nation laugh onto force professor. Behind chance example item.","estimatedTime":"6 weeks","previewFileId":"5ec7246b-1618-4479-b379-48e75ac7e7ed","createdByUserId":"940e6148-8a7c-48b7-83de-ae472b85211e"}'

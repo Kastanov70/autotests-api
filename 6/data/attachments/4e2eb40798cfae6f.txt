@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c3066cc6-7eca-4225-a6dc-11fb1d2117a6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjI5Ljc4MTY3MyIsInVzZXJfaWQiOiJhOTIwYmViNy1jMTAwLTQwMTYtODA5Yi04NzA4NjY1ZGQ1MDIifQ.qArotK7Gc_1VJEJ9EvAzVvwZvUxE3lcNYWcohUczqpU' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Team they wide father actually authority staff old.","maxScore":51,"minScore":17,"orderIndex":1,"description":"Use better yet rich page city. Spring cup though debate give tonight let. Phone resource whose inside for policy consumer.\nWay benefit at particularly. Half available character myself over before.","estimatedTime":"2 weeks"}'

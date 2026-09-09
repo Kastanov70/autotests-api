@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjI5Ljc4MTY3MyIsInVzZXJfaWQiOiJhOTIwYmViNy1jMTAwLTQwMTYtODA5Yi04NzA4NjY1ZGQ1MDIifQ.qArotK7Gc_1VJEJ9EvAzVvwZvUxE3lcNYWcohUczqpU' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move beyond determine other financial hot.","maxScore":71,"minScore":20,"description":"Building word born piece large experience. Weight involve each pull travel necessary. Sound parent garden direction strategy soon writer.","estimatedTime":"2 weeks","previewFileId":"801d999d-1cdc-43af-b16c-53285b4fe339","createdByUserId":"a920beb7-c100-4016-809b-8708665dd502"}'

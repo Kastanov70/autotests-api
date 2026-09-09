@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjI4LjgxODExOSIsInVzZXJfaWQiOiJkYWU2OTBjNC1mNGI2LTQzOGItYjE5MS0zMWI5ZDZiYTljMjEifQ.v7pZAvlgh0xNoRwcaR1yjj3XKLTBPGTLMo3EdY8ijho' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"American fine successful early two.","maxScore":60,"minScore":21,"description":"Pull big drop keep yes report interview. Pretty two cup activity fish hair. Billion by nor military.\nManager before market represent. Former factor response nor. Strategy write for son.","estimatedTime":"7 weeks","previewFileId":"02800f0b-77b7-4a3b-b68b-48c3bcdd53a6","createdByUserId":"dae690c4-f4b6-438b-b191-31b9d6ba9c21"}'

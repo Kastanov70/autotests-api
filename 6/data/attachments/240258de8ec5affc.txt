@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0024a4fb-1768-47dc-a027-22ef6aa46007' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjI2Ljg4ODM1MiIsInVzZXJfaWQiOiJiYmI5OWNiYy1jZWUyLTQ2YjMtYjdlMS03Yjk0YjNmZmZkZDAifQ.SdrxTrQX6FFAGASCn84P7jZ0iiaoYaQ3Zifcq8QtMoo' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy can third something rich alone.","maxScore":82,"minScore":28,"description":"Relate change develop. Society treat of. Black plant wide front before prevent.\nForm employee still line buy. Show child tree article stop. Former though term east administration question.","estimatedTime":"6 weeks"}'

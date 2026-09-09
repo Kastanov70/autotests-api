@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjI4LjgxODExOSIsInVzZXJfaWQiOiJkYWU2OTBjNC1mNGI2LTQzOGItYjE5MS0zMWI5ZDZiYTljMjEifQ.v7pZAvlgh0xNoRwcaR1yjj3XKLTBPGTLMo3EdY8ijho' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Popular half relate wind dream public.","courseId":"c23f6e3f-235b-4765-8a73-f26f9aa771ed","maxScore":69,"minScore":25,"orderIndex":25,"description":"Few ready before each. Because husband stop within. Hot federal world once full why.\nBehavior until find traditional than. One check no management operation. Good wide rate five government.","estimatedTime":"2 weeks"}'

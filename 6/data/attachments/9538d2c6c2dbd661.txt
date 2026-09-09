@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjMxLjgzNTY0NiIsInVzZXJfaWQiOiJhNWZiNDUyOC1kZWY2LTRlMDAtYmRkZS05ZjQ3NjE0NTQxMzgifQ.kJiFleg7kMjP197j2Bt8ufC1nlZBJ0u-7LDNSyRvVbk' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"College then thank affect matter forward size.","maxScore":91,"minScore":29,"description":"Individual wish marriage sort never see. Alone matter floor on since. Those inside often sister third when local realize.","estimatedTime":"2 weeks","previewFileId":"3829318f-d62d-4379-92b5-9151cf8c05c8","createdByUserId":"a5fb4528-def6-4e00-bdde-9f4761454138"}'

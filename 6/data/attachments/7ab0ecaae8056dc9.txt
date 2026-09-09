@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjE2OjI3Ljk0MzM3MCIsInVzZXJfaWQiOiJmYmZiMjgzOC0xNTA1LTQ5NjItOWY5My05NTkyYWYzYWZkYWQifQ.NZc9u98ZmJ-gLdjR84uzCuABHxZpv6sqZFp-DtaumaA' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Where need attack woman.","maxScore":97,"minScore":17,"description":"Situation shake wear. Drug attorney this organization. Side past radio hair will deal coach worry.","estimatedTime":"1 weeks","previewFileId":"705b8b3e-f56e-4b5f-82bc-43c39de6ee3e","createdByUserId":"fbfb2838-1505-4962-9f93-9592af3afdad"}'
