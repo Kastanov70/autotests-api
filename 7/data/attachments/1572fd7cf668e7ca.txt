@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjUxOjQ0LjEwOTU2NCIsInVzZXJfaWQiOiJlYzlmZmE4MS1hMmI5LTQ2MzMtYmUzZC05MmRiNmQ0ZjBiNGQifQ.19K52Wkclv61QMf8zMzKMeexTsj3OTpKIxU1smAhZ4Y' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Station happy fast if event yet.","maxScore":71,"minScore":3,"description":"Dream sometimes modern share road yeah pay. Interview since answer tough audience. His sometimes city such next behavior return.\nBed eye increase every event tell. Instead team second man.","estimatedTime":"6 weeks","previewFileId":"4b0e1074-ffa4-41c4-9fad-afdfec10d844","createdByUserId":"ec9ffa81-a2b9-4633-be3d-92db6d4f0b4d"}'

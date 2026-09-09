@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1ac7e362-2827-4564-9b32-3faf34055946' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjUxOjM5Ljc5OTM5MSIsInVzZXJfaWQiOiI5NzkzMjVmZS01ZTQxLTRiYWMtYjUyOS1kNWM0ZGViZGM4M2UifQ.cOxp4zJhaKTsEQmDEeR1s740P355xdH8HMuqKOpDVJI' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Keep stuff wrong wall everyone window detail.","maxScore":53,"minScore":6,"description":"Computer green perhaps lose. Push trade across anyone store. Move administration sister vote third every. City tree source.","estimatedTime":"10 weeks"}'

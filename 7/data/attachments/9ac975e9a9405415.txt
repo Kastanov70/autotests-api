@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjUxOjM5Ljc5OTM5MSIsInVzZXJfaWQiOiI5NzkzMjVmZS01ZTQxLTRiYWMtYjUyOS1kNWM0ZGViZGM4M2UifQ.cOxp4zJhaKTsEQmDEeR1s740P355xdH8HMuqKOpDVJI' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Side late beautiful office character admit occur.","maxScore":87,"minScore":14,"description":"Baby arrive range policy radio rich agree. Church floor sign fine everything agree his lead.","estimatedTime":"2 weeks","previewFileId":"10ed8c8c-3bb5-4ac6-8128-d595ef88e3ed","createdByUserId":"979325fe-5e41-4bac-b529-d5c4debdc83e"}'

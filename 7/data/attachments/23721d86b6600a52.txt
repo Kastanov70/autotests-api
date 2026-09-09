@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjUxOjQwLjQ1ODQzNSIsInVzZXJfaWQiOiJjOTUzMTljMy04ZTg0LTQ3MDMtYTQwNC00OGJiNzk5NTE4NGMifQ.0qrHjG1UlXtb-0TCq9BzmjPapA2W0DJCgZIqt09J-JM' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wind conference today image believe.","maxScore":56,"minScore":19,"description":"Science actually program possible. Officer support serve month week nearly eat structure.","estimatedTime":"7 weeks","previewFileId":"abd97e25-6491-4448-9a76-116c90b7cdf3","createdByUserId":"c95319c3-8e84-4703-a404-48bb7995184c"}'

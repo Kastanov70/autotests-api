@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjUxOjQxLjc1NTQyNyIsInVzZXJfaWQiOiJhZDdiZjEzNi1hNDA3LTQ4NzktYjg3YS1lOTBmMDYyNjkyMGIifQ.Fk9DZ9n1tI_PGWwK5MayBjYEyqVRk4SkFTlA1DwlZcI' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cultural success have enter window ready.","maxScore":69,"minScore":14,"description":"Within rest again skill cut employee star. Tonight maintain thing past media share.\nReveal pay teach they eat these among. Left argue month western event sure article.","estimatedTime":"3 weeks","previewFileId":"6263fc6a-c6d4-41a4-97e9-f7fa7d4ff7f6","createdByUserId":"ad7bf136-a407-4879-b87a-e90f0626920b"}'

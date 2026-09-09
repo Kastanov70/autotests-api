@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjUxOjQ0LjEwOTU2NCIsInVzZXJfaWQiOiJlYzlmZmE4MS1hMmI5LTQ2MzMtYmUzZC05MmRiNmQ0ZjBiNGQifQ.19K52Wkclv61QMf8zMzKMeexTsj3OTpKIxU1smAhZ4Y' \
+  -H 'content-length: 249' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Laugh edge much magazine.","courseId":"dc900fa3-e7e0-47b1-9bd0-c63a74b3530c","maxScore":77,"minScore":18,"orderIndex":34,"description":"Management idea product step beautiful. In interest history. South upon us.","estimatedTime":"9 weeks"}'

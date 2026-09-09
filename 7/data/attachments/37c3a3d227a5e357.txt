@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f0846354-d3f9-4750-88b5-5d0d294686be' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTA5VDEzOjUxOjQxLjc1NTQyNyIsInVzZXJfaWQiOiJhZDdiZjEzNi1hNDA3LTQ4NzktYjg3YS1lOTBmMDYyNjkyMGIifQ.Fk9DZ9n1tI_PGWwK5MayBjYEyqVRk4SkFTlA1DwlZcI' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Machine dinner economic coach close green.","maxScore":91,"minScore":15,"orderIndex":3,"description":"Official deep hotel among data.\nFull year particularly. Item reality couple. Peace cell assume chance.\nBed anyone involve film provide job. See what ever story sport television.","estimatedTime":"2 weeks"}'
