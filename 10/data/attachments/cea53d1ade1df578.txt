@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjU3Ljg3NjYxOCIsInVzZXJfaWQiOiJkYmI1ODRlNS0wM2ZkLTQwY2QtYmY3Yy0yZGQ0Mjc4MTZjNjQifQ.R4UGXco-Sl2PW9xi19JYXdkPULgJsnMJ-H_oE-xPh4k' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Range church check want loss wonder.","maxScore":86,"minScore":2,"description":"Add tonight measure pick admit.\nGive part western author man. Country cost billion similar. Really attention base job final size building.","estimatedTime":"1 weeks","previewFileId":"b484c37e-36e8-4e83-8faa-e3d06e520d76","createdByUserId":"dbb584e5-03fd-40cd-bf7c-2dd427816c64"}'

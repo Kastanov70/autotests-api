@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjU2LjQwMDQwOSIsInVzZXJfaWQiOiJlNDU0ODYwZC01YWE0LTQ5NGMtODFlYS0zZWJkNTdhOTY4YzAifQ.-1DGL9ldKPAnk18__T75vjA5ZUesbB3g9xTcBB-KFHY' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Raise these hit write usually.","maxScore":54,"minScore":6,"description":"Let likely artist economy despite talk bar. Air mean prevent ready. Recent finally single. Fall arrive happen would admit.","estimatedTime":"1 weeks","previewFileId":"ca9f0828-5891-4949-b250-a3b5dce7c442","createdByUserId":"e454860d-5aa4-494c-81ea-3ebd57a968c0"}'

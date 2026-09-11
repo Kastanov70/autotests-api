@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjU5LjAzOTQwNyIsInVzZXJfaWQiOiIxYTUyODk2Zi03ZjU3LTQ3NDEtOWU3Mi0xNjlkYjFhNmI1ZDcifQ.-rO0rpsNMeLnU0qFs7HsgwoKEd05jAK4Vqh2JBV5Gvc' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Develop black onto radio once.","courseId":"d71844c6-a630-4caf-80b2-718ecb50d520","maxScore":66,"minScore":14,"orderIndex":25,"description":"Until artist pressure radio per body about. Kid although hit accept their international ask. Small trade national wait.","estimatedTime":"1 weeks"}'

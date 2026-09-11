@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE1OjAwLjI0MzIzMSIsInVzZXJfaWQiOiJhZGU1ZDBkMi1jMzZjLTQ1OGMtOWVjNC0yZWNlZDY1MTgzMGEifQ.znZxWedF7HwK2wMGhAnQE9C8vUYnG8wHEO8-9USDHYA' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Night forward speech.","maxScore":90,"minScore":22,"description":"Travel defense check run threat. Hotel maintain each every. Check ask great meet yeah poor line.","estimatedTime":"10 weeks","previewFileId":"e96f20a1-c213-42fb-9568-7a4af2ece870","createdByUserId":"ade5d0d2-c36c-458c-9ec4-2eced651830a"}'

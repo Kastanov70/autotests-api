@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjU5Ljk2NzgzOCIsInVzZXJfaWQiOiJhMjE5MjNiOC0yYjQ3LTQzNGYtODA0Mi03NTE5YjYxMDNiNDgifQ.x2JXPWJcA4wXC_3ieu_nYaY7O0ZwBaZdCSzAqrYiXno' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just dream save debate itself again key.","maxScore":91,"minScore":1,"description":"Theory possible you method. Miss skin nearly letter look American.\nAir water green. House idea option hundred pass. Nation herself forget include sport break scientist decision.","estimatedTime":"3 weeks","previewFileId":"5fb04a32-1345-42a5-bc8e-2094f237e5d2","createdByUserId":"a21923b8-2b47-434f-8042-7519b6103b48"}'

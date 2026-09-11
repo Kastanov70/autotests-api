@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE1OjAxLjE3MzM4MyIsInVzZXJfaWQiOiIwZjZhNmM0MC1iNGFmLTRjYmItODc0Yi1hZjFkMjZjZDM0ODUifQ.rFZsUCTyA1rGQKKVv9u6-_OJLw2xWL3hML007pQ3KLI' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"You kind by thus every money heart.","maxScore":96,"minScore":2,"description":"Development ask fight everybody many. Detail much foot participant step.\nHelp central teacher skin range else mouth. Manager range give own religious newspaper hair morning. True decision thank case.","estimatedTime":"10 weeks","previewFileId":"70bb8c0c-a4bc-4cf8-8516-17a97f7f65e3","createdByUserId":"0f6a6c40-b4af-4cbb-874b-af1d26cd3485"}'

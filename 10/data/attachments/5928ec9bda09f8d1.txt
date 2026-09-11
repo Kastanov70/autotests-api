@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/26cd0a4e-bcf1-4102-994b-26f8b3694bf7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjU5LjAzOTQwNyIsInVzZXJfaWQiOiIxYTUyODk2Zi03ZjU3LTQ3NDEtOWU3Mi0xNjlkYjFhNmI1ZDcifQ.-rO0rpsNMeLnU0qFs7HsgwoKEd05jAK4Vqh2JBV5Gvc' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blue team join point top.","maxScore":65,"minScore":24,"orderIndex":58,"description":"Day red address capital operation drop. You foreign note. Newspaper great pattern partner long.\nBall consumer wear start evening picture.","estimatedTime":"7 weeks"}'

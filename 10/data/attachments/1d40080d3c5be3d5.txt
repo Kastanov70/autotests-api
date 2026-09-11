@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjU3LjMwMDUwNCIsInVzZXJfaWQiOiI1YzI1ZTQ1MC1lNTcwLTQ2YWQtYjU1MC1iOGE2ODgyZjRkN2UifQ.62LgAU8u7YHlqOayPsCjtcE9bEkDkPRJR1bD-ihyAoU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year hit prove.","maxScore":62,"minScore":8,"description":"Water spring common help we party. Share wife improve might improve court however.\nEffort election enter realize Mrs reach worry.","estimatedTime":"10 weeks","previewFileId":"8cce06c7-db31-4a31-8b80-3cd270f0215b","createdByUserId":"5c25e450-e570-46ad-b550-b8a6882f4d7e"}'
