@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjEyOjAxLjE4MzAzOCIsInVzZXJfaWQiOiI2Y2M2NTk5OC1jY2RiLTRiOWItODNiMi0xMWUyMWViYmI1MTYifQ.HRs_r5T61KS8JqrBqQcxgYg-zOlPAg4bzLI40_NLrJQ' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Role third lead eight particular professional.","maxScore":60,"minScore":27,"description":"Hear a public detail. Do conference staff sense responsibility above style. Staff address room off.\nFish mind mother. Page hand say standard two agreement. Trip several local cell this.","estimatedTime":"10 weeks","previewFileId":"4bd5f188-3f47-46c3-bb73-a32c68d23d9a","createdByUserId":"6cc65998-ccdb-4b9b-83b2-11e21ebbb516"}'

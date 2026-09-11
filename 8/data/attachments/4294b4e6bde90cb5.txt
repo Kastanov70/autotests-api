@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjEyOjAxLjQyNjc0MCIsInVzZXJfaWQiOiIxZGRmOTJhYS1kOGVlLTQyNjItODhlMi0xYWQ3NDhmMzdhZWQifQ.PWggtf76vYl9MjWOj16EpxKojNGc0qVh3EeJnxQf1i4' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Firm safe none theory how area size.","maxScore":99,"minScore":3,"description":"Tax general far though century century lay hear. Story teacher admit perhaps option.\nProject agree agency cold student. Lose inside simply past at air garden. Blue including right still.","estimatedTime":"8 weeks","previewFileId":"00d02d0b-4e40-475f-9dd3-21d2bcd829ed","createdByUserId":"1ddf92aa-d8ee-4262-88e2-1ad748f37aed"}'

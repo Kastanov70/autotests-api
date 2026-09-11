@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjEyOjAxLjE4MzAzOCIsInVzZXJfaWQiOiI2Y2M2NTk5OC1jY2RiLTRiOWItODNiMi0xMWUyMWViYmI1MTYifQ.HRs_r5T61KS8JqrBqQcxgYg-zOlPAg4bzLI40_NLrJQ' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"City store career even allow woman maintain.","courseId":"02bbdaa8-91c0-4eb1-8448-fa854f0abe48","maxScore":88,"minScore":19,"orderIndex":39,"description":"First citizen box opportunity color. Office plant across voice agree term. Use authority American north civil fund energy.","estimatedTime":"3 weeks"}'

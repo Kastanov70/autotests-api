@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjExOjU5LjU1MzY5MCIsInVzZXJfaWQiOiI5OWFmOTc2Ny04ZjAzLTQ1NWItOTczOC05NzhiMGE4NGVhZTMifQ.YqD_tGnRFp-W5Wgr_wTCyjuyCBpk0pwLMMJ3BDAX9hA' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay then dark speak cold campaign minute.","maxScore":69,"minScore":2,"description":"Quality raise summer reveal vote TV. Tv response seek parent.\nContain themselves hope majority network. Eight those look deal.\nLead herself modern hit. Indeed young until subject news cost.","estimatedTime":"3 weeks","previewFileId":"a2ef8cbc-81db-4550-b6c2-aab2cd0a841a","createdByUserId":"99af9767-8f03-455b-9738-978b0a84eae3"}'

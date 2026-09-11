@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ea5fc14c-03b3-44b8-8996-2ec353c50354' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjExOjU5Ljc3NjI4NCIsInVzZXJfaWQiOiI1Y2IzNjhmYS1kYzUyLTRkNDgtOThjYS0yZGRlM2ZhMTI4ODIifQ.tEad8XfMgafNLGBJzye17RrDe3LvqbmztseoC64QTX4' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Light sea lead citizen impact.","maxScore":52,"minScore":17,"orderIndex":66,"description":"Bad put station notice fire late. Radio bring dinner situation. Old TV customer power charge heavy apply.\nMuch option range could foreign four quite receive. Economy dream modern learn decade.","estimatedTime":"10 weeks"}'

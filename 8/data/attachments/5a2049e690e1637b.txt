@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjExOjU4LjcyODc5NCIsInVzZXJfaWQiOiIyY2EwNGE3Yy1kNjZiLTQ2YjItYjk5OC05YmZiZDM0NDg3ODUifQ.VG167nE-SHWaKh66j0-rRlQxDGfVoAmx9-3umlvyjiU' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Water writer spring by.","maxScore":98,"minScore":15,"description":"Such then the throughout father government wall course. Front fire military open later.\nCatch development whose series myself could. Local cause herself care world manage.","estimatedTime":"5 weeks","previewFileId":"54cafa33-f81e-4f5d-b381-a4011fd5eab4","createdByUserId":"2ca04a7c-d66b-46b2-b998-9bfbd3448785"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjExOjU4LjA0MjY2NiIsInVzZXJfaWQiOiJjZTUwYmQ5YS1jMGE0LTQ2NmUtYmY5Ni00ODBhMGM0MGQ5YTYifQ.CRv6BMk1mWee-qMjSaQw83yxx9Gqfm1LDvgqhyKKIeU' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Age style thought letter line fill.","maxScore":96,"minScore":20,"description":"Benefit military fear senior operation. Body similar brother role describe far name.","estimatedTime":"7 weeks","previewFileId":"5aad443a-40bc-4562-b256-538b6b511f16","createdByUserId":"ce50bd9a-c0a4-466e-bf96-480a0c40d9a6"}'
