@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjA5LjU5ODE2OSIsInVzZXJfaWQiOiI2OTA0MzZjNC0zYjNmLTRlYzktOGJhMC02MTk3YzUyZjhjZGEifQ.AK3hzeeIl6N0smrJJt7tRvT2dYUqGbz9knHfzWBmJz4' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gun child thus page eight record.","maxScore":81,"minScore":1,"description":"Week make worker. Structure discussion always across theory good company. Civil camera remain ground hear even same.","estimatedTime":"9 weeks","previewFileId":"8a4564b4-ec37-46d7-8ac2-e7f0125e4a06","createdByUserId":"690436c4-3b3f-4ec9-8ba0-6197c52f8cda"}'

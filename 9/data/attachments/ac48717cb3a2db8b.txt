@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjA5LjMxNzM2NSIsInVzZXJfaWQiOiI5YTY0OTM5Ny0wN2Y0LTRlZmYtYWEzZS0yMTQxNWE1MTg0OGMifQ.AoFIvR8MisD8RSIag1CPmMi95j_1-i8OD1yxQW_tr4s' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happy laugh sort up they.","maxScore":58,"minScore":6,"description":"Magazine decade interest together cost. Program improve court develop everyone sit artist his.","estimatedTime":"6 weeks","previewFileId":"254ad5c6-6186-4ebc-9d94-734bf78475fa","createdByUserId":"9a649397-07f4-4eff-aa3e-21415a51848c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjEwLjQ0MDQ4NyIsInVzZXJfaWQiOiIyNDAzNTQ3OC1lMTg2LTRhNTMtYTExMi1hYWQ0MDY1MmJjMmUifQ.HucWOpJvEUDuvKAIEnL4f78v3yvlAACqtpVXME9kP94' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worker short past them politics pressure.","courseId":"718e5736-6739-4ab5-9ef2-d1eab27a6aa0","maxScore":67,"minScore":8,"orderIndex":80,"description":"Organization international TV peace officer good product weight. Center remember small rate face. Far know change however memory section.","estimatedTime":"6 weeks"}'

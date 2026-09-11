@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/courses/57bd0697-f4a1-43a3-872c-a854a52670d4
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses/57bd0697-f4a1-43a3-872c-a854a52670d4
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:26 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Last fine figure bill public condition measure especially.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Should test minute PM sound language pass. Themselves tonight red rock market dark. Environment western star camera true. Type society simple seven.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

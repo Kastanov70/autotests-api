@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjA5LjU5ODE2OSIsInVzZXJfaWQiOiI2OTA0MzZjNC0zYjNmLTRlYzktOGJhMC02MTk3YzUyZjhjZGEifQ.AK3hzeeIl6N0smrJJt7tRvT2dYUqGbz9knHfzWBmJz4' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough opportunity will lose team sport.","courseId":"e4c7818f-cf23-4393-9fa3-cce2d884abaf","maxScore":76,"minScore":11,"orderIndex":75,"description":"Enough boy attention role happen. Church leg community last.\nUnit indeed task away stay specific. Top want something stay make. Even individual model development fund food.","estimatedTime":"1 weeks"}'

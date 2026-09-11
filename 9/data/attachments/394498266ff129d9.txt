@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjEwLjQ0MDQ4NyIsInVzZXJfaWQiOiIyNDAzNTQ3OC1lMTg2LTRhNTMtYTExMi1hYWQ0MDY1MmJjMmUifQ.HucWOpJvEUDuvKAIEnL4f78v3yvlAACqtpVXME9kP94' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Herself his day relate dinner suggest design.","maxScore":94,"minScore":11,"description":"Relate appear open sing. Middle senior hard discuss value four our see.\nAdmit good north set early age. Find environment four left either.","estimatedTime":"4 weeks","previewFileId":"9a94f7f7-b739-429c-8b6c-815209fd5efa","createdByUserId":"24035478-e186-4a53-a112-aad40652bc2e"}'

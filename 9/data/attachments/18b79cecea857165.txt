@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjA1Ljc4MjQxNSIsInVzZXJfaWQiOiJhNjQ2ZDc0MC0xZDAxLTRiNzktYjQ4Ni0zMTM2M2RiZjkzMzAifQ.nF3uIAabmCouZZPNa7ysFdsAbOlLFkhesxCVSb8zHD4' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Single show seat him drive.","maxScore":57,"minScore":21,"description":"Spring wind day do south. Character nothing city.\nAgo natural provide college recognize man sure. Allow nearly process yes.","estimatedTime":"2 weeks","previewFileId":"2243b516-6a32-43ca-8d75-442ed89a6095","createdByUserId":"a646d740-1d01-4b79-b486-31363dbf9330"}'

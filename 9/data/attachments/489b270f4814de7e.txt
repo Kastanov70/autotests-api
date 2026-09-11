@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjA4LjM1NTEzOCIsInVzZXJfaWQiOiI0NzY5ZDkwYy0wYmFhLTQ0NWItYThkMC00ZGI3MDUxODBhM2IifQ.JVvNPOgN0HplYuibnpHYtW66XYzLw-xsWlASz---dgA' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Vote section employee send sit.","maxScore":64,"minScore":11,"description":"Foreign bag pretty voice great matter. Bit various place difference.\nPersonal prepare detail exactly sport scientist. Store movie a may authority southern.","estimatedTime":"3 weeks","previewFileId":"eb6bf315-a5e9-490a-8b96-e08e56b0550f","createdByUserId":"4769d90c-0baa-445b-a8d0-4db705180a3b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjA4LjA3MjMzNSIsInVzZXJfaWQiOiI1MDVhMWE3OS01OGZiLTQ0MmUtYmFlNy02ZmI0OWJmZDRhMWQifQ.JmpBZWIbi4Y7muQJIW1ITKUYnBqIf4JHKk7tsogJogs' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Free interest claim close public together notice.","maxScore":57,"minScore":25,"description":"Allow along where three instead purpose special. Central behavior response too style.\nFine generation hand region. Cultural range keep tax wish.","estimatedTime":"9 weeks","previewFileId":"f7eaee45-edea-4fee-92ce-45d3f5f13075","createdByUserId":"505a1a79-58fb-442e-bae7-6fb49bfd4a1d"}'

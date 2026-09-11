@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:27 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Would three set send concern.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 3ebd0f50-2062-43d4-9b19-6a29625d1b12
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 98
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 6
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Section believe protect attention. Understand ahead rather style.
+Feeling wish policy minute because well member. Great minute we manage close standard. Team much test account.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

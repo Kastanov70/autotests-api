@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjA4LjA3MjMzNSIsInVzZXJfaWQiOiI1MDVhMWE3OS01OGZiLTQ0MmUtYmFlNy02ZmI0OWJmZDRhMWQifQ.JmpBZWIbi4Y7muQJIW1ITKUYnBqIf4JHKk7tsogJogs' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would three set send concern.","courseId":"3ebd0f50-2062-43d4-9b19-6a29625d1b12","maxScore":98,"minScore":28,"orderIndex":6,"description":"Section believe protect attention. Understand ahead rather style.\nFeeling wish policy minute because well member. Great minute we manage close standard. Team much test account.","estimatedTime":"5 weeks"}'

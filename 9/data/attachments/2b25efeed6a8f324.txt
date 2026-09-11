@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjE0OjA3LjA0NDQ1NiIsInVzZXJfaWQiOiJmMWYzNDAzMS03ZWRiLTQyN2YtOTI3Ni1kN2UzN2RjMjQ3Y2UifQ.qYnzVRUJzxArpcebTCkT8Zs6x7vouSxsRZw6IbgesIk' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cause suffer meeting court actually dark want.","maxScore":76,"minScore":11,"description":"However series name song often. Rise somebody and read cold great second. Drop same note reason bill citizen.\nNatural forget heart bed. She many surface movie. Ahead family public.","estimatedTime":"4 weeks","previewFileId":"b67d026c-3b66-4d8a-a8d3-7405f0027d1d","createdByUserId":"f1f34031-7edb-427f-9276-d7e37dc247ce"}'
