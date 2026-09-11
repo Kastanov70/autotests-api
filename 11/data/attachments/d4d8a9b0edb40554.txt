@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjI2OjM2LjI4ODc0NSIsInVzZXJfaWQiOiI0NTY3OTIxYy1mYzFkLTRiZjItYjQ3YS1mNjJjODg2NzM5OTkifQ.8J36h-443bnVuFr-nDGivwwOZ-1A0MnnvdlgUrH9WsE' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Federal even human against often gas.","maxScore":91,"minScore":21,"description":"Movement rest crime institution simply hot focus it. Reveal national both. We particular similar whole think green even including.","estimatedTime":"2 weeks","previewFileId":"e69a8ddb-6063-441c-bf65-d1c144986f3a","createdByUserId":"4567921c-fc1d-4bf2-b47a-f62c88673999"}'

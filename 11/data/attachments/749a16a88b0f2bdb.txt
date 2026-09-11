@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a098b155-163a-4eb7-b564-870a64600e23' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjI2OjM1Ljc4NzY4OCIsInVzZXJfaWQiOiIwMDk3YzE2MC0xNDI2LTRkMDEtYmE2ZC05ZGZiMzUzMWE1YTAifQ.7-UwndP9BdAu2_h_IkvHOGLIfKx3otMDLw5F_vrOBuU' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Find suggest happen president.","maxScore":76,"minScore":24,"description":"Standard respond choice. Describe light talk.\nReduce often detail. Somebody or ability seven Democrat themselves sound population. Middle direction but doctor rather concern.","estimatedTime":"7 weeks"}'

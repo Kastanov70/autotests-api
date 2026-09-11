@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjI2OjM4LjIxNTkzMiIsInVzZXJfaWQiOiIwYjIyYzk1ZS01ODEyLTRjMTItOTJjYS03MmQwNzg5MDZlYzgifQ.RbkQMVmEDSNErkp6LsbCSp2b2eZ-cXfUSWGYOo-OR-o' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Structure outside upon and write draw.","maxScore":50,"minScore":1,"description":"Third position painting school heavy certainly meet. Health type at I matter source everybody. Sense sell subject another church.","estimatedTime":"8 weeks","previewFileId":"9b63925c-0bed-480d-8dec-d227eb1c1d89","createdByUserId":"0b22c95e-5812-4c12-92ca-72d078906ec8"}'

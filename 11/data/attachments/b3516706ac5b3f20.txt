@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjI2OjM4LjQ1NjA0NyIsInVzZXJfaWQiOiIzNTExOTNjMi02MTg4LTQwMzItYThjMy00NzM3NzllNGRhZTUifQ.OiT9_qQpwvJCIsoF2k2IgPPfchOt-NkaohWyEHeCyEU' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"So end back strong political recent live.","maxScore":100,"minScore":19,"description":"Rest teacher director focus. Night early positive piece white market light use. Reality major ok threat.\nRed add item window yourself debate range.","estimatedTime":"6 weeks","previewFileId":"b4acf9ac-e311-4e36-b552-3ba5150b5325","createdByUserId":"351193c2-6188-4032-a8c3-473779e4dae5"}'

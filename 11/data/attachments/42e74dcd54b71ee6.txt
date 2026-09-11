@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjI2OjM3LjM2NTc1OCIsInVzZXJfaWQiOiIwNjZkZmY4MC02MmI3LTQzZTgtYjk1Mi00MjM2MGZhMjc5MjQifQ.wJkCbUCds-9rV5efsQdTS9If490ANUje6_DTdSBZLsY' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recently five nor drug cut skill.","maxScore":97,"minScore":5,"description":"Rate may respond why. Eye size economic result material ground. Long total hope concern back student through.\nRead play grow trial heart. Management produce however his Mr behavior type.","estimatedTime":"4 weeks","previewFileId":"96110394-f6e3-4032-ab99-47c9562b71e5","createdByUserId":"066dff80-62b7-43e8-b952-42360fa27924"}'

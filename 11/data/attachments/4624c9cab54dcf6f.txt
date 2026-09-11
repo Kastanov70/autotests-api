@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjI2OjM1LjAxNzExMiIsInVzZXJfaWQiOiJjYzE2MDZiZi0xZmIzLTRiYTItYTA1ZC0zZDQxOThiODBmZmQifQ.kmT5vhlBcr9jmwhBQWvQKuk8dzHqwAiQPSb1AE6-MX4' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie quite door.","maxScore":72,"minScore":11,"description":"Bank serious answer relate field. Agent ten red raise information better. Again training street ground.\nNotice decade popular dinner police.","estimatedTime":"3 weeks","previewFileId":"4ae8d56b-9c82-4934-aa52-0567492c9681","createdByUserId":"cc1606bf-1fb3-4ba2-a05d-3d4198b80ffd"}'

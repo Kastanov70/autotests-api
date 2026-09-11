@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTExVDE5OjI2OjM1Ljc4NzY4OCIsInVzZXJfaWQiOiIwMDk3YzE2MC0xNDI2LTRkMDEtYmE2ZC05ZGZiMzUzMWE1YTAifQ.7-UwndP9BdAu2_h_IkvHOGLIfKx3otMDLw5F_vrOBuU' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Already movie site education close.","maxScore":85,"minScore":22,"description":"About gas also nothing door rest probably. Charge finish education fight more water main player. War activity pay kid.","estimatedTime":"6 weeks","previewFileId":"94b56720-4644-4697-ae13-42f9019713fa","createdByUserId":"0097c160-1426-4d01-ba6d-9dfb3531a5a0"}'
